@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>筆記体ツイートジェネレータ</title>
+    <script type="text/javascript" src="convert.js"></script>
+    <style type="text/css">
+	font-size:2vw;
+	h2{
+	font-size:4vw;
+	}
+    </style>
+    </head>
+    <body>
+	<h2>アルファベットを筆記体記号に変換する</h2>
+        <div>
+            <textarea id="input" rows="20" cols="50" placeholder="入力"></textarea>
+        </div>
+        <div>
+            <label for="output">出力</label>
+            <textarea id="output" rows="20" cols="50" placeholder="出力"></textarea>
+        </div>
+        <div>
+	    <button id="convert" style="width: 30%; height: auto">変換</button>
+	    <button id="copy" style="width: 30%; height: auto">クリップボードに貼り付け</button>
+	    <button id="tweet" style="width: 30%; height: auto">ツイート</button>
+        </div>
+    </body>
+</html>
